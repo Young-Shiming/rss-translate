@@ -1,0 +1,61 @@
+# ============================================
+# RSS-Translate 配置文件
+# 国际新闻源 · 全文翻译 · 英文→中文
+# 直接复制到 fork 后的仓库根目录替换原文件
+# ============================================
+
+[source001]
+name = "bbc_world_rss.xml"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source002]
+name = "guardian_world_rss.xml"
+url = "https://www.theguardian.com/world/rss"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source003]
+name = "reuters_world_rss.xml"
+url = "https://feeds.reuters.com/Reuters/worldNews"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source004]
+name = "nyt_world_rss.xml"
+url = "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source005]
+name = "aljazeera_rss.xml"
+url = "https://www.aljazeera.com/xml/rss/all.xml"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source006]
+name = "dw_world_rss.xml"
+url = "https://rss.dw.com/rdf/rss-en-world"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source007]
+name = "thediplomat_rss.xml"
+url = "https://thediplomat.com/feed/"
+max = "15"
+md5 = ""
+action = "auto"
+
+[source008]
+name = "economist_latest_rss.xml"
+url = "https://www.economist.com/latest/rss.xml"
+max = "10"
+md5 = ""
+action = "auto"
